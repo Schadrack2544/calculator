@@ -11,16 +11,16 @@ body {
 
 #calculator {
     background-color: red;
-    width: 500px;
+    width: 400px;
     border-radius: 15px;
 }
 
 #display {
-    width: 500px;
+    width: calc(400px - 6px);
     color: white;
-    background-color: rgb(46, 45, 45);
+    background-color: rgb(88, 80, 80);
     font-size: 3rem;
-    border: none;
+    border: 3px solid black;
     padding: 20px;
 }
 
@@ -29,7 +29,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     background-color: #0a0601;
     gap: 20px;
-    width: 500px;
+    width: 400px;
     padding: 20px;
 }
 
@@ -64,4 +64,10 @@ button:hover {
 #equals {
     background-color: #ff1232;
     color: white;
+}
+
+#del{
+    background-color: #643005;
+    color: white;
+    font-size: 2rem;
 }

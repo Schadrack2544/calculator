@@ -1,5 +1,8 @@
 const display = document.querySelector("#display");
 
+const backSpace= () => {
+  display.value = display.value.slice(0, -1);
+}
 const clearDisplay = () => {
   display.value = "";
 };
